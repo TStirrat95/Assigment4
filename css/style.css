@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Altone-Regular;
+    src: url(file:///Users/tylerstirrat/Desktop/assignment4-stirrat-tyler/fonts/Altone-Regular.ttf) format(truetype);
+    font-weight: bold;
+}
+@keyframes ship {
+    0% {
+      opacity: 0;
+      transform: translateX(250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+.ship-image {
+    width: 50%;
+    height: 50%;
+    margin-top: 15%;
+    vertical-align: bottom;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-name: ship
+}
+img {
+    position: fixed;
+}
+p {
+    font-family: 'Altone-Regular';
+    margin: 25px 50px 75px 100px;
+    text-align: left;
+    text-decoration: solid;
+    text-decoration-color: darkslategrey;
+    position: relative;
+}
